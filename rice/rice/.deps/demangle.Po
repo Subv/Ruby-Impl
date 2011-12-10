@@ -1,0 +1,183 @@
+demangle.o: detail/demangle.cpp detail/demangle.hpp \
+ c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/string \
+ c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/mingw32/bits/c++config.h \
+ c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/mingw32/bits/os_defines.h \
+ c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/mingw32/bits/cpu_defines.h \
+ c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/bits/stringfwd.h \
+ c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/bits/char_traits.h \
+ c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/bits/stl_algobase.h \
+ c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/cstddef \
+ c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/stddef.h \
+ c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/bits/functexcept.h \
+ c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/exception_defines.h \
+ c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/bits/cpp_type_traits.h \
+ c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/ext/type_traits.h \
+ c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/ext/numeric_traits.h \
+ c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/bits/stl_pair.h \
+ c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/bits/move.h \
+ c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/bits/concept_check.h \
+ c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/bits/stl_iterator_base_types.h \
+ c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/bits/stl_iterator_base_funcs.h \
+ c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/bits/stl_iterator.h \
+ c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/debug/debug.h \
+ c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/bits/postypes.h \
+ c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/cwchar \
+ c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/../../../../include/wchar.h \
+ c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/../../../../include/_mingw.h \
+ c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/stdarg.h \
+ c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/../../../../include/wctype.h \
+ c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/../../../../include/sys/types.h \
+ c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/../../../../include/stdint.h \
+ c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/bits/allocator.h \
+ c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/mingw32/bits/c++allocator.h \
+ c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/ext/new_allocator.h \
+ c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/new \
+ c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/exception \
+ c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/bits/localefwd.h \
+ c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/mingw32/bits/c++locale.h \
+ c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/clocale \
+ c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/../../../../include/locale.h \
+ c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/iosfwd \
+ c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/cctype \
+ c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/../../../../include/ctype.h \
+ c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/bits/ostream_insert.h \
+ c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/cxxabi-forced.h \
+ c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/bits/stl_function.h \
+ c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/backward/binders.h \
+ c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/bits/basic_string.h \
+ c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/ext/atomicity.h \
+ c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/mingw32/bits/gthr.h \
+ c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/mingw32/bits/gthr-default.h \
+ c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/../../../../include/errno.h \
+ c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/mingw32/bits/atomic_word.h \
+ c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/initializer_list \
+ c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/bits/basic_string.tcc \
+ c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/cxxabi.h \
+ c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/mingw32/bits/cxxabi_tweaks.h \
+ c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/typeinfo \
+ c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/cstdlib \
+ c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/../../../../include/stdlib.h \
+ c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/cstring \
+ c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/../../../../include/string.h
+
+detail/demangle.hpp:
+
+c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/string:
+
+c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/mingw32/bits/c++config.h:
+
+c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/mingw32/bits/os_defines.h:
+
+c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/mingw32/bits/cpu_defines.h:
+
+c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/bits/stringfwd.h:
+
+c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/bits/char_traits.h:
+
+c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/bits/stl_algobase.h:
+
+c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/cstddef:
+
+c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/stddef.h:
+
+c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/bits/functexcept.h:
+
+c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/exception_defines.h:
+
+c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/bits/cpp_type_traits.h:
+
+c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/ext/type_traits.h:
+
+c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/ext/numeric_traits.h:
+
+c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/bits/stl_pair.h:
+
+c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/bits/move.h:
+
+c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/bits/concept_check.h:
+
+c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/bits/stl_iterator_base_types.h:
+
+c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/bits/stl_iterator_base_funcs.h:
+
+c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/bits/stl_iterator.h:
+
+c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/debug/debug.h:
+
+c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/bits/postypes.h:
+
+c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/cwchar:
+
+c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/../../../../include/wchar.h:
+
+c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/../../../../include/_mingw.h:
+
+c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/stdarg.h:
+
+c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/../../../../include/wctype.h:
+
+c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/../../../../include/sys/types.h:
+
+c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/../../../../include/stdint.h:
+
+c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/bits/allocator.h:
+
+c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/mingw32/bits/c++allocator.h:
+
+c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/ext/new_allocator.h:
+
+c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/new:
+
+c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/exception:
+
+c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/bits/localefwd.h:
+
+c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/mingw32/bits/c++locale.h:
+
+c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/clocale:
+
+c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/../../../../include/locale.h:
+
+c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/iosfwd:
+
+c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/cctype:
+
+c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/../../../../include/ctype.h:
+
+c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/bits/ostream_insert.h:
+
+c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/cxxabi-forced.h:
+
+c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/bits/stl_function.h:
+
+c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/backward/binders.h:
+
+c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/bits/basic_string.h:
+
+c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/ext/atomicity.h:
+
+c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/mingw32/bits/gthr.h:
+
+c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/mingw32/bits/gthr-default.h:
+
+c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/../../../../include/errno.h:
+
+c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/mingw32/bits/atomic_word.h:
+
+c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/initializer_list:
+
+c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/bits/basic_string.tcc:
+
+c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/cxxabi.h:
+
+c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/mingw32/bits/cxxabi_tweaks.h:
+
+c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/typeinfo:
+
+c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/cstdlib:
+
+c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/../../../../include/stdlib.h:
+
+c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/cstring:
+
+c:\users\sebastian\downloads\devkitruby\mingw\bin\../lib/gcc/mingw32/4.5.2/../../../../include/string.h:

@@ -1,0 +1,39 @@
+#ifndef Rice__Director__hpp_
+#define Rice__Director__hpp_
+
+#include "Object.hpp"
+
+namespace Rice {
+
+  /**
+   * A Director works exactly as a SWIG %director works (thus the name).
+   * You use this class to help build proxy classes so that polymorphism
+   * works from C++ into Ruby.
+   */
+  class Director 
+  {
+    public:
+      //! Construct new Director. Needs the Ruby object so that the 
+      //  proxy class can call methods on that object.
+      Director(Object self);
+
+      virtual ~Director() { }
+
+      //! Raise a ruby exception when a call comes through for a pure virtual method
+      /*! If a Ruby script calls 'super' on a method that's otherwise a pure virtual
+       *  method, use this method to throw an exception in this case. 
+       */
+      void raisePureVirtual() const;
+
+      //! Get the Ruby object linked to this C++ instance
+      Object getSelf() const { return self_; }
+
+    private:
+
+      // Save the Ruby object related to the instance of this class
+      Object self_;
+
+  };
+}
+
+#endif // Rice__Director__hpp_

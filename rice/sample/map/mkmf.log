@@ -1,0 +1,27 @@
+have_library: checking for main() in -lrice... -------------------- yes
+
+"g++ -o conftest -Ic:/Ruby192/include/ruby-1.9.1/i386-mingw32 -Ic:/Ruby192/include/ruby-1.9.1/ruby/backward -Ic:/Ruby192/include/ruby-1.9.1 -I. -Ic:/Ruby192/lib/ruby/gems/1.9.1/gems/rice-1.4.3  -IC:/Ruby192/lib/ruby/gems/1.9.1/gems/rice-1.4.3/ruby/lib/include  -O3 -g -Wextra -Wno-unused-parameter -Wno-parentheses -Wpointer-arith -Wwrite-strings -Wno-missing-field-initializers -Wno-long-long conftest.c  -Lc:/Ruby192/lib/ruby/gems/1.9.1/gems/rice-1.4.3/rice -L. -Lc:/Ruby192/lib -L. -LC:\\Users\\Luis\\Projects\\oss\\oneclick\\rubyinstaller\\sandbox\\tk\\lib -LC:\\Users\\Luis\\Projects\\oss\\oneclick\\rubyinstaller\\sandbox\\tcl\\lib -LC:\\Users\\Luis\\Projects\\oss\\oneclick\\rubyinstaller\\sandbox\\libyaml\\lib -LC:\\Users\\Luis\\Projects\\oss\\oneclick\\rubyinstaller\\sandbox\\pdcurses\\lib -LC:\\Users\\Luis\\Projects\\oss\\oneclick\\rubyinstaller\\sandbox\\openssl\\lib -LC:\\Users\\Luis\\Projects\\oss\\oneclick\\rubyinstaller\\sandbox\\zlib\\lib -LC:\\Users\\Luis\\Projects\\oss\\oneclick\\rubyinstaller\\sandbox\\iconv\\lib -LC:\\Users\\Luis\\Projects\\oss\\oneclick\\rubyinstaller\\sandbox\\gdbm\\lib -LC:\\Users\\Luis\\Projects\\oss\\oneclick\\rubyinstaller\\sandbox\\libffi\\lib   -LC:/Ruby192/lib/ruby/gems/1.9.1/gems/rice-1.4.3/ruby/lib/lib     -lmsvcrt-ruby191-static  -lshell32 -lws2_32"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <winsock2.h>
+4: #include <windows.h>
+5: int main() {return 0;}
+/* end */
+
+"g++ -o conftest -Ic:/Ruby192/include/ruby-1.9.1/i386-mingw32 -Ic:/Ruby192/include/ruby-1.9.1/ruby/backward -Ic:/Ruby192/include/ruby-1.9.1 -I. -Ic:/Ruby192/lib/ruby/gems/1.9.1/gems/rice-1.4.3  -IC:/Ruby192/lib/ruby/gems/1.9.1/gems/rice-1.4.3/ruby/lib/include  -O3 -g -Wextra -Wno-unused-parameter -Wno-parentheses -Wpointer-arith -Wwrite-strings -Wno-missing-field-initializers -Wno-long-long conftest.c  -Lc:/Ruby192/lib/ruby/gems/1.9.1/gems/rice-1.4.3/rice -L. -Lc:/Ruby192/lib -L. -LC:\\Users\\Luis\\Projects\\oss\\oneclick\\rubyinstaller\\sandbox\\tk\\lib -LC:\\Users\\Luis\\Projects\\oss\\oneclick\\rubyinstaller\\sandbox\\tcl\\lib -LC:\\Users\\Luis\\Projects\\oss\\oneclick\\rubyinstaller\\sandbox\\libyaml\\lib -LC:\\Users\\Luis\\Projects\\oss\\oneclick\\rubyinstaller\\sandbox\\pdcurses\\lib -LC:\\Users\\Luis\\Projects\\oss\\oneclick\\rubyinstaller\\sandbox\\openssl\\lib -LC:\\Users\\Luis\\Projects\\oss\\oneclick\\rubyinstaller\\sandbox\\zlib\\lib -LC:\\Users\\Luis\\Projects\\oss\\oneclick\\rubyinstaller\\sandbox\\iconv\\lib -LC:\\Users\\Luis\\Projects\\oss\\oneclick\\rubyinstaller\\sandbox\\gdbm\\lib -LC:\\Users\\Luis\\Projects\\oss\\oneclick\\rubyinstaller\\sandbox\\libffi\\lib   -LC:/Ruby192/lib/ruby/gems/1.9.1/gems/rice-1.4.3/ruby/lib/lib     -lmsvcrt-ruby191-static -lrice  -lshell32 -lws2_32"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <winsock2.h>
+4: #include <windows.h>
+5: 
+6: /*top*/
+7: int main() {return 0;}
+8: int t() { void ((*volatile p)()); p = (void ((*)()))main; return 0; }
+/* end */
+
+--------------------
+
